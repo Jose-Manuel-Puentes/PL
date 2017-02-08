@@ -1,6 +1,5 @@
 import java.io.*;
 
-
 class testLexico {
 
     public static String toString(Token t){
