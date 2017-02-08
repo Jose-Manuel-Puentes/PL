@@ -11,13 +11,16 @@ class Token {
     public int tipo; // tipo es ID, ENTERO, REAL...
 
     public static final int
-    ID=1,
-    ENTERO=2,
-    EOF=3;
+    PARI=1,
+    PARD=2,
+    MULOP=3,
+    ADDOP=4;
+
+
 
     public Token()
     {
-    	
+
     }
     public String toString(){
 		return lexema; 
