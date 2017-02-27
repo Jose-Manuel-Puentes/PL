@@ -30,7 +30,7 @@ class Token {
     ENTERO      =17,
     ID          =18,
     REAL        =19,
-    FINFICHERO  =20;
+    EOF  =20;
 
     public Token()
     {
@@ -78,7 +78,7 @@ class Token {
                     break;
             case REAL       :resul="numero real";
                     break;
-            case FINFICHERO :resul="EOF";
+            case EOF :resul="EOF";
                     break;
 
         }
