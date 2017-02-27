@@ -30,11 +30,11 @@ class Token {
     ENTERO      =17,
     ID          =18,
     REAL        =19,
-    EOF  =20;
+    EOF         =20;
 
     public Token()
     {
-
+        
     }
     public String toString(){
         String resul="";
